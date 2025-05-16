@@ -1,0 +1,32 @@
+/*
+Theme Name: Novena Medical
+Theme URI: https://yourdomain.com
+Author: Your Name
+Author URI: https://yourdomain.com
+Description: Medical WordPress theme based on Novena
+Version: 1.0
+Text Domain: novena-wp
+*/
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.7;
+    color: #6c757d;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
